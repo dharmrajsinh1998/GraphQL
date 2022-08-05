@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} LogicRays {% endblock %}
+
+{% block content %}
+	<div class="card container" style="width: 58rem;">
+			<div class="card-body">
+				<h5 class="card-title">
+					WelCome <strong>{{request.user.email}}</strong> To Demo Task logout
+				</h5>
+                <a href="{% url 'app:graphql' %}">GraphQL</a>
+			</div>
+	</div>
+{% endblock %}
