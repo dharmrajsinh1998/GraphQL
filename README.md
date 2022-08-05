@@ -1,5 +1,5 @@
-# LogicRaysPracticle
-LogicRaysPracticle
+# GraphQL
+
 # how to run project
   
  step 1: create virtualenv by this command
